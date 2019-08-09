@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49295" started-at="2019-08-09T09:48:09Z" finished-at="2019-08-09T09:48:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49295" started-at="2019-08-09T09:48:09Z" finished-at="2019-08-09T09:48:58Z">
+      <class name="testCases.RefAnd">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.RefAnd@cce5ada8]" name="beforeTest" is-config="true" duration-ms="21881" started-at="2019-08-09T15:18:09Z" finished-at="2019-08-09T15:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC_1_NavigationCheck()[pri:0, instance:testCases.RefAnd@cce5ada8]" name="TC_1_NavigationCheck" duration-ms="5874" started-at="2019-08-09T15:18:31Z" finished-at="2019-08-09T15:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_1_NavigationCheck -->
+        <test-method status="PASS" signature="TC_2_FieldVerification()[pri:1, instance:testCases.RefAnd@cce5ada8]" name="TC_2_FieldVerification" duration-ms="5790" started-at="2019-08-09T15:18:37Z" finished-at="2019-08-09T15:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_2_FieldVerification -->
+        <test-method status="PASS" signature="TC_3_BurgerMenu_FieldVerification()[pri:2, instance:testCases.RefAnd@cce5ada8]" name="TC_3_BurgerMenu_FieldVerification" duration-ms="6751" started-at="2019-08-09T15:18:43Z" finished-at="2019-08-09T15:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_3_BurgerMenu_FieldVerification -->
+        <test-method status="PASS" signature="TC_4_MailerButton_Msg_Verification()[pri:3, instance:testCases.RefAnd@cce5ada8]" name="TC_4_MailerButton_Msg_Verification" duration-ms="7014" started-at="2019-08-09T15:18:49Z" finished-at="2019-08-09T15:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_4_MailerButton_Msg_Verification -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:testCases.RefAnd@cce5ada8]" name="CloseApp" is-config="true" duration-ms="1929" started-at="2019-08-09T15:18:57Z" finished-at="2019-08-09T15:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testCases.RefAnd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

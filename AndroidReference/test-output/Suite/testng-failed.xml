@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="test on device 1(failed)">
+    <parameter name="appPackage" value="com.infosys.infosysit"/>
+    <parameter name="appactivity" value="com.infosys.infosysit.ui.home.SplashActivity"/>
+    <parameter name="platformVersion" value="6.0.1"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="SM-A500G"/>
+    <parameter name="UDID" value="ad33dc21"/>
+    <parameter name="URL" value="127.0.0.1:4723/wd/hub"/>
+    <classes>
+      <class name="pageobjects.NightStay">
+        <methods>
+          <include name="TC_12_PastDates_Enable_Verification"/>
+          <include name="TC_14_NightStay_ApplyPastDate_Validation"/>
+          <include name="TC_1_NavigationCheck"/>
+          <include name="TC_4_DateTimePicker_Verification"/>
+          <include name="TC_13_FutureDates_Enable_Verification"/>
+          <include name="beforetest"/>
+          <include name="TC_2_NavigationCheck_ServiceTab"/>
+          <include name="TC_9_LessThenJL6_Error_Validation"/>
+          <include name="TC_11_ExistingNightStay_ErrMsg_Validation"/>
+          <include name="TC_10_Successfull_Submission_Validation"/>
+          <include name="TC_8_SelfApprovalLessThenJL6_Error_Validation"/>
+          <include name="TC_3_FiledsVerification"/>
+          <include name="TC_6_MandatoryField_BlankSpace_Verification"/>
+          <include name="TC_7_InvalidApproverID_Error_Validation"/>
+          <include name="testbase"/>
+          <include name="TC_5_MandatoryFieldViolation_Verification"/>
+        </methods>
+      </class> <!-- pageobjects.NightStay -->
+      <class name="maindriver.Baseclassnew">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- maindriver.Baseclassnew -->
+    </classes>
+  </test> <!-- test on device 1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
